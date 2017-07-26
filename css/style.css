@@ -1,0 +1,118 @@
+
+
+
+
+.no-padding{
+	padding: 0;
+}
+/* header CSS */
+.header-section{
+	background: url(../images/banner-img.png) no-repeat;
+	background-size: cover;
+	padding-top: 35px;
+	
+}
+.btn-cnt{
+	background-color: #425ad6;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 5px;
+	padding: 5px 30px;
+}
+.btn-cnt:hover{
+	color: #fff;
+	background-color: #0c1f83;
+	transition: 0.5s;
+}
+.heading h1{
+	color: #fff;
+	font-size: 50px;
+	padding: 250px 0;
+	text-transform: uppercase;
+
+}
+.btn-quote{
+	background-color: #1863ad;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: -400px;
+	padding: 10px 40px;
+}
+.btn-quote:hover{
+	color: #fff;
+	background-color: #2198c9;
+	transition: 0.5s;
+}
+
+
+.content-section{
+	padding:60px 0;
+	background-color: #f7f7f7;
+}
+.content p{
+	width: 50%;
+	margin: 0px auto;
+	font-size: 16px;
+}
+.content1{
+	padding-top: 5px;
+}
+.content-img{
+	margin: 50px auto -5px;
+	display: block;
+	padding: 20px 0; 
+}
+.content2 h4{
+	padding: 15px 0px;
+}
+.content-section p{
+position: relative;
+}
+.content-section p:before{
+    position: absolute;
+    content: "";
+    width: 5%;
+    height: 3px;
+    background: red;
+    bottom: -15px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.btn-quote1{
+	background-color: #1863ad;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 35px;
+	padding: 10px 40px;
+}
+.btn-quote1:hover{
+	color: #fff;
+	background-color: #2198c9;
+	transition: 0.5s;
+}
+
+
+.content-section-2{
+	padding:60px 0;
+}
+
+
+.footer{
+	background: url(../images/banner-img-2.png);
+	background-size: cover;
+	padding:60px 0;
+}
+.footer h1 {
+	color: #fff;
+	font-size: 50px;
+	padding: 50px 0 0;
+	text-transform: uppercase;
+}
+.footer-content{
+	padding: 15px 0;
+}
+
+.copyright{
+	padding: 15px 0;
+	color: #2B3F96;
+}
